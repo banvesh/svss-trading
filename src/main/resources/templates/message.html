@@ -1,0 +1,26 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Success Message</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style type="text/css">
+.button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+	<p> Thank you for contacting us; we will respond as soon as
+		possible. </p>
+	<br>
+	<form>
+	<button type="button" class="w3-button w3-black w3-margin" th:onclick="self.close()">Close</button>
+	</form>
+</body>
+</html>
